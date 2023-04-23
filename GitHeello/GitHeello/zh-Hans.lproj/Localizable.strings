@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  GitHeello
+
+  Created by Daniel Hu on 2023-02-28.
+  
+*/
+
+"phrase.reloadingEllipsis" = "重载中...";
+"phrase.errorOccurred" = "发生了错误";
+"phrase.changeAccount" = "变更账号";
+"phrase.appName" = "GitHub聊天";
+
+"placeholder.typeToSearchUsers" = "输入以搜索用户";
+"placeholder.messageInput" = "请输入...";
+"placeholder.noMessage" = "尚无历史信息";
+"placeholder.noFollower" = "尚无粉丝";
+"placeholder.enterNewUsername" = "输入新用户名";
+
+"verb.send" = "发送";
+"verb.change" = "变更";
+"verb.cancel" = "取消";

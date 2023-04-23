@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  GitHeello
+
+  Created by Daniel Hu on 2023-02-28.
+  
+*/
+
+"phrase.reloadingEllipsis" = "リロード中...";
+"phrase.errorOccurred" = "エラーが発生した";
+"phrase.changeAccount" = "アカウント変更";
+"phrase.appName" = "GitHubチャット";
+
+"placeholder.typeToSearchUsers" = "ユーザーを検索します";
+"placeholder.messageInput" = "あァ";
+"placeholder.noMessage" = "送信経歴がありません";
+"placeholder.noFollower" = "フォロワーがいません";
+"placeholder.enterNewUsername" = "新しいユーザー名を入力";
+
+"verb.send" = "送信";
+"verb.change" = "変更";
+"verb.cancel" = "取り消し";

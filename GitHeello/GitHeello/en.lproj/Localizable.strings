@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  GitHeello
+
+  Created by Daniel Hu on 2023-02-28.
+  
+*/
+
+"phrase.reloadingEllipsis" = "Reloading...";
+"phrase.errorOccurred" = "Error Occurred";
+"phrase.changeAccount" = "Change account";
+"phrase.appName" = "GitHub DM";
+
+"placeholder.typeToSearchUsers" = "Type to search users";
+"placeholder.messageInput" = "Aa";
+"placeholder.noMessage" = "No history message";
+"placeholder.noFollower" = "You have no follower";
+"placeholder.enterNewUsername" = "Enter a new username";
+
+"verb.send" = "Send";
+"verb.change" = "Change";
+"verb.cancel" = "Cancel";

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MessageCollectionViewCell" customModule="GitHeello" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="176"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="392" height="176"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right_bubble" translatesAutoresizingMaskIntoConstraints="NO" id="im9-8H-ydQ">
+                        <rect key="frame" x="313" y="134" width="43" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="43" id="0a6-Lr-Vuw"/>
+                            <constraint firstAttribute="width" secondItem="im9-8H-ydQ" secondAttribute="height" multiplier="43:32" id="owl-8B-03f"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="left_bubble" translatesAutoresizingMaskIntoConstraints="NO" id="Mar-As-sse">
+                        <rect key="frame" x="36" y="134" width="43" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="43" id="cCi-FL-Sp5"/>
+                            <constraint firstAttribute="width" secondItem="Mar-As-sse" secondAttribute="height" multiplier="43:32" id="cVZ-sr-89Z"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBR-Gl-VIo">
+                        <rect key="frame" x="45" y="15" width="302" height="146"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="998" verticalHuggingPriority="800" horizontalCompressionResistancePriority="1000" scrollEnabled="NO" editable="NO" text="[Text body]" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzs-lo-pRq">
+                                <rect key="frame" x="20" y="12" width="262" height="122"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <constraints>
+                            <constraint firstItem="dzs-lo-pRq" firstAttribute="centerX" secondItem="fBR-Gl-VIo" secondAttribute="centerX" id="N0s-DX-G3s"/>
+                            <constraint firstItem="dzs-lo-pRq" firstAttribute="centerY" secondItem="fBR-Gl-VIo" secondAttribute="centerY" id="NYl-Qm-yHK"/>
+                            <constraint firstItem="dzs-lo-pRq" firstAttribute="top" secondItem="fBR-Gl-VIo" secondAttribute="top" constant="12" id="oIr-Pf-ea1"/>
+                            <constraint firstItem="dzs-lo-pRq" firstAttribute="leading" secondItem="fBR-Gl-VIo" secondAttribute="leading" constant="20" id="y6B-Ac-p2T"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="fBR-Gl-VIo" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="59S-b9-kPO"/>
+                <constraint firstAttribute="trailing" secondItem="fBR-Gl-VIo" secondAttribute="trailing" constant="45" id="9PB-du-wLY"/>
+                <constraint firstItem="Mar-As-sse" firstAttribute="bottom" secondItem="fBR-Gl-VIo" secondAttribute="bottom" constant="5" id="Ics-qa-6BV"/>
+                <constraint firstItem="im9-8H-ydQ" firstAttribute="trailing" secondItem="fBR-Gl-VIo" secondAttribute="trailing" constant="9" id="Mb2-ll-C3o"/>
+                <constraint firstItem="Mar-As-sse" firstAttribute="leading" secondItem="fBR-Gl-VIo" secondAttribute="leading" constant="-9" id="TV4-ij-9D4"/>
+                <constraint firstItem="im9-8H-ydQ" firstAttribute="bottom" secondItem="fBR-Gl-VIo" secondAttribute="bottom" constant="5" id="Ygu-HF-y7J"/>
+                <constraint firstItem="fBR-Gl-VIo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="lFv-WG-pMX"/>
+                <constraint firstItem="fBR-Gl-VIo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="45" id="wrg-cS-eLS"/>
+            </constraints>
+            <size key="customSize" width="392" height="176"/>
+            <connections>
+                <outlet property="constraint_textContainerLeading" destination="wrg-cS-eLS" id="Hld-cX-Bkq"/>
+                <outlet property="constraint_textContainerTrailing" destination="9PB-du-wLY" id="MTj-dd-cem"/>
+                <outlet property="leftBubbleImageView" destination="Mar-As-sse" id="jys-zh-tlg"/>
+                <outlet property="rightBubbleImageView" destination="im9-8H-ydQ" id="MlS-mD-DcM"/>
+                <outlet property="textContainer" destination="fBR-Gl-VIo" id="krx-zA-PVE"/>
+                <outlet property="textView" destination="dzs-lo-pRq" id="7RK-nM-FSR"/>
+            </connections>
+            <point key="canvasLocation" x="400" y="42.95774647887324"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="left_bubble" width="43" height="32"/>
+        <image name="right_bubble" width="43" height="32"/>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
