@@ -11,7 +11,7 @@
 
 ## About the app
 
-GitHeello is a sample iOS app that I built from scratch without any 3rd party framework dependencies. It was meant to be used as my portfolio app.
+GitHeello is a sample iOS app that I built from scratch. It was meant to be used as my portfolio app.
 
 ### What's in the app
 
@@ -20,8 +20,8 @@ GitHeello is a sample iOS app that I built from scratch without any 3rd party fr
 - The direct message screen is a mock to demonstrate my UI skills.
 - Built with scalability, maintainability, and testability in mind:
   - Adopts clean architecture, dividing the app into 3 layers.
-  - Custom implementations of networking, local persistence, and UI navigation.
-  - Includes sample unit test cases to prove tests can be easily added as needed.
+  - Custom implementations of networking, local persistence, and UI navigation services.
+  - Includes sample unit test cases, more tests can be easily added later as the needs arise.
 - User-friendly UI behaviours:
   - Localization
   - Light & dark mode
@@ -30,8 +30,7 @@ GitHeello is a sample iOS app that I built from scratch without any 3rd party fr
   - Shimmering animation
   - Pull down to refresh
   - Infinite scrolling
-  - and more.
-- Built from scratch within a day (approximately 14 hours of coding).
+- Built from scratch within a day (approximately 14 hours of coding) without any 3rd party framework dependencies.
 
 Overall, GitHeello is an app that shows my understanding of iOS development and reflects my current programming skills.
 
